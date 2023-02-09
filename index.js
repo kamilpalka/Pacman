@@ -3,8 +3,8 @@ const ctx = canvas.getContext("2d");
 
 const scoreEl = document.querySelector("#scoreEl");
 
-canvas.width = innerWidth;
-canvas.height = innerHeight;
+canvas.width = 600;
+canvas.height = 800;
 
 class Boundary {
   static width = 40;
